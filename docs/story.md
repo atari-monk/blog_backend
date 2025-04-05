@@ -29,3 +29,5 @@ python -m django_scripts.generate_app -p blog_backend -a posts -r C:\atari-monk\
 ```
 
 ## Generate Model
+
+- [Post Model](post_model.md)
