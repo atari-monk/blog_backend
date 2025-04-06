@@ -20,6 +20,6 @@ python -m django_scripts.generate_app -p blog_backend -a posts -r C:\atari-monk\
 
 ## 2025-04-06
 
-## Generate Post Model
+## Generate [Post Model](post_model.md)
 
-- [Post Model](post_model.md)
+## Generate [Views, URLs, and templates for Posts](post_views.md)
