@@ -59,8 +59,8 @@ from .views import PostListView, PostDetailView, PostCreateView
 
 urlpatterns = [
     path('', PostListView.as_view(), name='post_list'),
-    path('post/<slug:slug>/', PostDetailView.as_view(), name='post_detail'),
     path('post/new/', PostCreateView.as_view(), name='post_create'),
+    path('post/<slug:slug>/', PostDetailView.as_view(), name='post_detail'),
 ]
 ```
 
@@ -148,7 +148,7 @@ Make sure your `settings.py` includes:
 ```python
 INSTALLED_APPS = [
     # ...
-    'posts.apps.PostsConfig',
+    'posts.apps.PostsConfig', # this is same as 'posts' but more clear
     # ...
 ]
 

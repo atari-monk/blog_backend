@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Blog</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="/">Home</a>
+				<a href="{% url 'post_create' %}">New Post</a>
+			</nav>
+		</header>
+		<main>{% block content %} {% endblock %}</main>
+	</body>
+</html>
