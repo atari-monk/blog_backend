@@ -107,7 +107,18 @@ c. Create `templates/registration/signup.html`:
 
 1. Try accessing `/post/new/` - you should be redirected to login page
 2. Log in with an admin user (create one first with `python manage.py createsuperuser`)
+
+```sh
+python manage.py createsuperuser
+```
+
 3. After logging in, you should be able to create posts successfully
+
+- Testing project
+
+```sh
+python manage.py runserver
+```
 
 ## Additional Recommendations
 

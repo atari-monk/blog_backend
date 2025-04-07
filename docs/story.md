@@ -27,16 +27,6 @@ python -m django_scripts.generate_app -p blog_backend -a posts -r C:\atari-monk\
 Implemented and testing.  
 Getting login error saving post form.
 
+## 2025-04-07
+
 ## Generate [Login](login.md)
-
-- Generated admin user
-
-```sh
-python manage.py createsuperuser
-```
-
-- Testing project
-
-```sh
-python manage.py runserver
-```
