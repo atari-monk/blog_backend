@@ -23,3 +23,8 @@ python -m django_scripts.generate_app -p blog_backend -a posts -r C:\atari-monk\
 ## Generate [Post Model](post_model.md)
 
 ## Generate [Views, URLs, and templates for Posts](post_views.md)
+
+Implemented and testing.  
+Getting login error saving post form.
+
+## Generate [Login](login.md)
