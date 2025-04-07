@@ -28,3 +28,15 @@ Implemented and testing.
 Getting login error saving post form.
 
 ## Generate [Login](login.md)
+
+- Generated admin user
+
+```sh
+python manage.py createsuperuser
+```
+
+- Testing project
+
+```sh
+python manage.py runserver
+```
