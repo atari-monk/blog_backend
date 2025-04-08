@@ -1,7 +1,6 @@
-{% extends 'base.html' %} 
-
-{% block content %}
+{% extends 'base.html' %} {% block content %}
 <h1>{{ post.title }}</h1>
 <p>By {{ post.author }} | {{ post.published_at|date:"M d, Y" }}</p>
 <div>{{ post.content_html|safe }}</div>
+<a href="{% url 'post_delete' post.pk %}" class="btn btn-danger">Delete Post</a>
 {% endblock %}
