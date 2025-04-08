@@ -2,9 +2,7 @@
 
 Leanring django by generating blog_backend with python scripts.
 
-## 2025-04-05
-
-## Generate Project blog_backend
+## Generate Project blog_backend, 2025-04-05
 
 ```sh
 python -m django_scripts.generate_project C:\atari-monk\code blog_backend --gitignore-template C:\atari-monk\code\py-scripting\data\django_gitignore.txt
@@ -18,15 +16,15 @@ python -m django_scripts.generate_app -p blog_backend -a posts -r C:\atari-monk\
 
 [Concept of django app](django_app.md)
 
-## 2025-04-06
-
-## Generate [Post Model](post_model.md)
+## Generate [Post Model](post_model.md), 2025-04-06
 
 ## Generate [Views, URLs, and templates for Posts](post_views.md)
 
 Implemented and testing.  
 Getting login error saving post form.
 
-## 2025-04-07
+## Generate [Login](login.md), 2025-04-07
 
-## Generate [Login](login.md)
+## [Basic cli commands](cli.md), 2025-04-08
+
+## [Removing posts](post_delete.md)
